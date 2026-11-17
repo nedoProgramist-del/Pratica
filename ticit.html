@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticket to Ride (Билет на поезд)</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__logo" href="index.html"><span class="site-header__span">T</span>Games</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+
+      <nav class="header__nav" id="site-nav">
+        <ul class="header__ul">
+          <li><a class="header__tx" href="index.html#main">Главная</a></li>
+          <li><a class="header__tx" href="index.html#game">Игры</a></li>
+          <li><a class="header__tx" href="index.html#news">Новости</a></li>
+          <li><a class="header__tx" href="index.html#about">О нас</a></li>
+        </ul>
+      </nav>
+      <a href=""><button class="header__bn">Войти</button></a>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="hero-site">
+      <div class="hero-site__goat">
+        <div class="hero-site__location">
+          <div class="hero-site__left">
+            <img class="hero-site__img" src="src/img/ticit.jpg" alt="игра Ticket to Ride">
+          </div>
+
+          <div class="hero-site__right">
+            <h2>Ticket to Ride (Билет на поезд)</h2>
+            <p><span class="hero-site__specs">Тип: </span>семейная стратегия, евро-игра, сбор сетов</p>
+            <p><span class="hero-site__specs">Игроков: </span>2–5 человек</p>
+            <p><span class="hero-site__specs">Время партии: </span>30–60 минут</p>
+            <p><span class="hero-site__specs">Возраст: </span>от 8 лет</p>
+            <p><span class="hero-site__specs">Сложность: </span>низкая (правила объясняются за 5–10 минут)</p>
+          </div>
+        </div>
+
+        <div class="hero-site__structure">
+          <h2>Состав комплекта</h2>
+          <p><strong>В коробке находится всё необходимое для игры (базовая версия «Америка»):</strong></p>
+          <ul class="hero-site__ul">
+            <li>1 игровое поле с картой Северной Америки;</li>
+            <li>240 пластиковых вагончиков (по 45 штук пяти цветов + запасные);</li>
+            <li>110 карт поездов (8 цветов + локомотивы);</li>
+            <li>30 карт маршрутов (билеты, которые нужно выполнить);</li>
+            <li>5 фишек для подсчёта очков;</li>
+            <li>1 бонусная карта «Самый длинный путь»;</li>
+            <li>правила игры.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Правила и механика</h2>
+          <p>Цель игры — набрать наибольшее количество победных очков, выполняя карты маршрутов и строя железные дороги
+            между городами.</p>
+
+          <ol class="hero-site__ul">
+            <li>
+              <strong>Взять карты поездов.</strong> Игрок берёт 2 карты из колоды или из открытого ряда (или 1 карту,
+              если она — локомотив). Карты поездов нужны для строительства путей.
+            </li>
+            <li>
+              <strong>Построить путь.</strong> Игрок сбрасывает карты поездов, чтобы занять участок пути между двумя
+              соседними городами на карте. Цвет карт должен совпадать с цветом пути. За каждый построенный вагончик
+              игрок сразу получает очки (от 1 до 15 в зависимости от длины пути).
+            </li>
+            <li>
+              <strong>Взять новые маршруты.</strong> Игрок берёт 3 новые карты маршрутов и должен оставить себе как
+              минимум одну.
+            </li>
+          </ol>
+
+          <h3>Ключевые элементы</h3>
+          <ul class="hero-site__ul">
+            <li>
+              <strong>Локомотивы:</strong> Карты-джокеры, которые могут заменить вагончик любого цвета.
+            </li>
+            <li>
+              <strong>Маршруты (билеты):</strong> В начале игры каждый получает несколько карт маршрутов, где указаны
+              два города. Если игрок соединит их непрерывным путём своего цвета к концу игры, он получит бонусные очки.
+              Если не соединит — потеряет эти очки.
+            </li>
+            <li>
+              <strong>Бонус за самый длинный путь:</strong> Игрок с самым длинным непрерывным маршрутом в конце игры
+              получает +10 очков.
+            </li>
+          </ul>
+
+          <h3>Конец игры</h3>
+          <p>
+            <span class="hero-site__text">Игра заканчивается, когда у одного из игроков остаётся 2 или меньше
+              вагончиков. После этого все игроки делают последний ход, и проводится финальный подсчёт очков: за
+              построенные пути, за выполненные маршруты и за бонус «Самый длинный путь».</span>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

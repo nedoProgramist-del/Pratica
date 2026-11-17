@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Название проекта — практика</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div id="main"></div>
+<header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__logo" href="index.html"><span class="site-header__span">T</span>Games</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+
+      <nav class="header__nav" id="site-nav">
+        <ul class="header__ul">
+          <li><a class="header__tx" href="index.html#main">Главная</a></li>
+          <li><a class="header__tx" href="index.html#game">Игры</a></li>
+          <li><a class="header__tx" href="index.html#news">Новости</a></li>
+          <li><a class="header__tx" href="index.html#about">О нас</a></li>
+        </ul>
+      </nav>
+      <a href=""><button class="header__bn">Войти</button></a>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="hero-site">
+        <div class="hero-site__goat">
+            <div class="hero-site__location">
+                <div class="hero-site__left">
+                        <img  class="hero-site__img" src="src/img/dixit.jpg" alt="">
+                </div>
+
+                <div class="hero-site__right">
+                    <h2>Dixit (Диксит)</h2>
+                    <p><span class="hero-site__specs">Тип: </span>игра на ассоциации, воображение и интуицию</p>
+                    <p><span class="hero-site__specs">Игроков: </span>3–6 человек</p>
+                    <p><span class="hero-site__specs">Время партии: </span>30–60 минут</p>
+                    <p><span class="hero-site__specs">Возраст: </span>от 8 лет</p>
+                    <p><span class="hero-site__specs">Сложность: </span>очень низкая (правила объясняются за 2–3 минуты)</p>
+                </div>
+            </div>
+
+            <div class="hero-site__structure">
+              <h2>Состав комплекта</h2>
+              <p><strong>В коробке находится всё необходимое для игры:</strong></p>
+              <ul class="hero-site__ul">
+                <li>84 карты с уникальными сюрреалистичными иллюстрациями;</li>
+                <li>игровое поле — внутренняя часть коробки — для подсчёта очков;</li>
+                <li>36 жетонов для голосования: 6 наборов по 6 жетонов с номерами от 1 до 6;</li>
+                <li>6 деревянных фигурок кроликов разных цветов для подсчёта очков.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h2>Правила и механика</h2>
+              <p>Игра проходит по раундам. В каждом раунде один из игроков становится Рассказчиком.</p>
+            
+              <ol class="hero-site__ul">
+                <li>
+                  <strong>Ход Рассказчика.</strong> В начале раунда у каждого игрока 6 карт.
+                  Рассказчик тайно выбирает одну карту из своей руки и придумывает к ней
+                  ассоциацию — слово, фразу, звук или историю. Он озвучивает её,
+                  не показывая карту остальным.
+                </li>
+                <li>
+                  <strong>Ход остальных игроков.</strong> Каждый выбирает из своих шести карт ту,
+                  которая, по его мнению, лучше всего соответствует ассоциации Рассказчика,
+                  и выкладывает её на стол лицом вниз.
+                </li>
+                <li>
+                  <strong>Перемешивание и голосование.</strong> Все выложенные карты перемешиваются
+                  и выкладываются в ряд лицом вверх. Каждый игрок, кроме Рассказчика, угадывает,
+                  какая карта принадлежит Рассказчику, и отдаёт жетон с номером выбранной карты.
+                  Голосовать за свою карту нельзя.
+                </li>
+              </ol>
+          
+              <h3>Подсчёт очков</h3>
+              <ul class="hero-site__ul">
+                <li>
+                  <strong>Все угадали карту Рассказчика или никто не угадал:</strong>
+                  Рассказчик получает 0 очков, каждый из остальных игроков — по 2 очка.
+                </li>
+                <li>
+                  <strong>Карту угадали некоторые, но не все:</strong>
+                  Рассказчик и игроки, угадавшие его карту, получают по 3 очка.
+                </li>
+                <li>
+                  <strong>Бонусные очки:</strong> каждый игрок, кроме Рассказчика, получает
+                  1 очко за каждый голос, отданный за его собственную карту.
+                </li>
+              </ul>
+          
+              <h3>Конец игры</h3>
+              <p >
+                <span class="hero-site__text">Игра заканчивается, когда заканчивается колода карт или когда один из игроков
+                набирает 30 очков. Побеждает игрок с наибольшим количеством очков.</span>
+              </p>
+            </div>
+
+        </div>
+    </section>
+
+
+  </main>   
+  
+    
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Название проекта — практика</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div id="main"></div>
+<header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__logo" href="index.html"><span class="site-header__span">T</span>Games</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+
+      <nav class="header__nav" id="site-nav">
+        <ul class="header__ul">
+          <li><a class="header__tx" href="index.html#main">Главная</a></li>
+          <li><a class="header__tx" href="index.html#game">Игры</a></li>
+          <li><a class="header__tx" href="index.html#news">Новости</a></li>
+          <li><a class="header__tx" href="index.html#about">О нас</a></li>
+        </ul>
+      </nav>
+      <a href=""><button class="header__bn">Войти</button></a>
+    </div>
+  </header>
+
+    <main class="container">
+
+        <section class="hero-site">
+            <div class="hero-site__goat">
+                <div class="hero-site__location">
+                    <div class="hero-site__left">
+                        <img class="hero-site__img" src="src/img/catan.jpg" alt="Настольная игра Catan">
+                    </div>
+
+                    <div class="hero-site__right">
+                        <h2>Catan (Колонизаторы)</h2>
+                        <p><span class="hero-site__specs">Тип: </span>экономическая стратегия, торговля и развитие</p>
+                        <p><span class="hero-site__specs">Игроков: </span>3–4 человека (до 6 с дополнением)</p>
+                        <p><span class="hero-site__specs">Время партии: </span>45–90 минут</p>
+                        <p><span class="hero-site__specs">Возраст: </span>от 10 лет</p>
+                        <p><span class="hero-site__specs">Сложность: </span>средняя (правила объясняются за 5–10 минут)</p>
+                    </div>
+                </div>
+
+                <div class="hero-site__structure">
+                    <h2>Состав комплекта</h2>
+                    <p><strong>В коробке находится всё необходимое для игры:</strong></p>
+                    <ul class="hero-site__ul">
+                        <li>19 гексов ландшафта (шестиугольные карточки суши);</li>
+                        <li>6 элементов морской рамки (включая порты);</li>
+                        <li>97 пластиковых фигурок (поселения, города, дороги);</li>
+                        <li>18 номерных жетонов для определения добычи ресурсов;</li>
+                        <li>95 карт сырья (5 типов ресурсов) и 25 карт развития;</li>
+                        <li>4 карты цены строительства и 2 особые карты («Самая длинная дорога» и «Самая большая
+                            армия»);</li>
+                        <li>2 кубика и правила игры.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Правила и механика</h2>
+                    <p>Игра проходит по раундам. Главная цель — первым набрать 10 победных очков.</p>
+
+                    <ol class="hero-site__ul">
+                        <li>
+                            <strong>Создание поля.</strong> В начале игры из 19 гексов собирается остров Катан, который
+                            окружается морем. На каждый гекс (кроме пустыни) кладется номерной жетон от 2 до 12. На гекс
+                            пустыни ставится фишка разбойника.
+                        </li>
+                        <li>
+                            <strong>Добыча ресурсов.</strong> В свой ход игрок бросает два кубика. Сумма на кубиках
+                            указывает, какие гексы приносят ресурсы. Все игроки, у которых есть поселение или город на
+                            границе с этими гексами, получают соответствующее количество карт ресурсов.
+                        </li>
+                        <li>
+                            <strong>Торговля и строительство.</strong> Полученные ресурсы можно обменивать с другими
+                            игроками или с банком. Ресурсы тратятся на строительство дорог, поселений, городов и покупку
+                            карт развития.
+                        </li>
+                        <li>
+                            <strong>Разбойник.</strong> Если на кубиках выпадает 7, игроки с 8 и более картами ресурсов
+                            должны сбросить половину. Активируется разбойник: он блокирует добычу с одного гекса и
+                            позволяет игроку украсть одну карту ресурса у соперника.
+                        </li>
+                    </ol>
+
+                    <h3>Стоимость построек и очки</h3>
+                    <ul class="hero-site__ul">
+                        <li>
+                            <strong>Поселение:</strong> 1 ПО (стоимость: 1 дерево + 1 глина + 1 шерсть + 1 зерно).
+                        </li>
+                        <li>
+                            <strong>Город:</strong> 2 ПО (заменяет поселение, стоимость: 2 зерна + 3 руды).
+                        </li>
+                        <li>
+                            <strong>«Самая длинная дорога»:</strong> 2 ПО (дается игроку с самой длинной непрерывной
+                            дорогой от 5 шт).
+                        </li>
+                        <li>
+                            <strong>«Самая большая армия»:</strong> 2 ПО (дается игроку, сыгравшему 3 и более карт
+                            рыцарей).
+                        </li>
+                        <li>
+                            <strong>Карты развития:</strong> некоторые карты (например, «Очки победы») дают 1
+                            дополнительное ПО.
+                        </li>
+                    </ul>
+
+                    <h3>Конец игры</h3>
+                    <p>
+                        <span class="hero-site__text">Игра заканчивается сразу же, как только один из игроков набирает
+                            10 победных очков. Побеждает игрок, сделавший это первым.</span>
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>

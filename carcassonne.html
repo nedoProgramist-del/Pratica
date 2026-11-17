@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carcassonne (Каркассон)</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+<header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__logo" href="index.html"><span class="site-header__span">T</span>Games</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+
+      <nav class="header__nav" id="site-nav">
+        <ul class="header__ul">
+          <li><a class="header__tx" href="index.html#main">Главная</a></li>
+          <li><a class="header__tx" href="index.html#game">Игры</a></li>
+          <li><a class="header__tx" href="index.html#news">Новости</a></li>
+          <li><a class="header__tx" href="index.html#about">О нас</a></li>
+        </ul>
+      </nav>
+      <a href=""><button class="header__bn">Войти</button></a>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="hero-site">
+      <div class="hero-site__goat">
+        <div class="hero-site__location">
+          <div class="hero-site__left">
+            <img class="hero-site__img" src="src/img/carcocone.jpg" alt="Настольная игра Carcassonne">
+          </div>
+
+          <div class="hero-site__right">
+            <h2>Carcassonne (Каркассон)</h2>
+            <p><span class="hero-site__specs">Тип: </span>игра по выкладыванию тайлов, стратегия</p>
+            <p><span class="hero-site__specs">Игроков: </span>2–5 человек</p>
+            <p><span class="hero-site__specs">Время партии: </span>5–30 минут</p>
+            <p><span class="hero-site__specs">Возраст: </span>от 8 лет</p>
+            <p><span class="hero-site__specs">Сложность: </span>низкая (правила объясняются за 2–3 минуты)</p>
+          </div>
+        </div>
+
+        <div class="hero-site__structure">
+          <h2>Состав комплекта</h2>
+          <p><strong>В коробке находится всё необходимое для игры:</strong></p>
+          <ul class="hero-site__ul">
+            <li>72 квадрата местности с изображениями городов, дорог, полей и монастырей;</li>
+            <li>40 фишек подданных (по 8 фишек пяти цветов: желтого, красного, зеленого, синего и черного);</li>
+            <li>1 дорожка подсчёта очков;</li>
+            <li>правила игры;</li>
+            <li>бонус: 12 квадратов с рекой и 5 фишек аббатов для дополнительных режимов.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Правила и механика</h2>
+          <p>Цель игры — набрать наибольшее количество победных очков, создавая единое игровое поле из квадратов и
+            размещая на них своих подданных.</p>
+
+          <ol class="hero-site__ul">
+            <li>
+              <strong>Выкладывание квадрата.</strong> В свой ход возьмите один квадрат местности и присоедините его к
+              уже выложенным на столе. Новый квадрат должен продолжать существующий ландшафт — дорога смыкается с
+              дорогой, городская стена — с другой стеной.
+            </li>
+            <li>
+              <strong>Размещение подданного.</strong> После выкладывания квадрата вы можете (но не обязаны) поставить на
+              него одну фишку подданного из своего резерва. При этом вы определяете её роль: разбойник (на дороге),
+              рыцарь (в городе), монах (в монастыре) или крестьянин (на поле).
+            </li>
+            <li>
+              <strong>Завершение объектов.</strong> Когда дорога, город или монастырь полностью достраиваются
+              (замыкаются), владелец этого объекта забирает свою фишку обратно в резерв и получает победные очки.
+            </li>
+            <li>
+              <strong>Финальный подсчёт.</strong> Крестьяне на полях остаются на своих местах до конца игры. Победа
+              присуждается не в процессе, а только по результатам финального подсчёта очков.
+            </li>
+          </ol>
+
+          <h3>Подсчёт очков</h3>
+          <ul class="hero-site__ul">
+            <li>
+              <strong>Дорога:</strong> 1 очко за каждый квадрат, входящий в её состав.
+            </li>
+            <li>
+              <strong>Город:</strong> 2 очка за каждый квадрат, плюс 2 очка за каждый щит в городе.
+            </li>
+            <li>
+              <strong>Монастырь:</strong> 1 очко за сам монастырь и по 1 очку за каждый квадрат вокруг него (максимум 9
+              очков).
+            </li>
+            <li>
+              <strong>Поля:</strong> Приносят очки только в конце игры за каждый завершенный город, который снабжается
+              этим полем.
+            </li>
+          </ul>
+
+          <h3>Конец игры</h3>
+          <p>
+            <span class="hero-site__text">Игра заканчивается, когда заканчиваются все квадраты местности. После этого
+              проводится финальный подсчёт очков, и побеждает игрок с наибольшим количеством очков.</span>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Munchkin (Манчкин)</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+<header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__logo" href="index.html"><span class="site-header__span">T</span>Games</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+
+      <nav class="header__nav" id="site-nav">
+        <ul class="header__ul">
+          <li><a class="header__tx" href="index.html#main">Главная</a></li>
+          <li><a class="header__tx" href="index.html#game">Игры</a></li>
+          <li><a class="header__tx" href="index.html#news">Новости</a></li>
+          <li><a class="header__tx" href="index.html#about">О нас</a></li>
+        </ul>
+      </nav>
+      <a href=""><button class="header__bn">Войти</button></a>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="hero-site">
+      <div class="hero-site__goat">
+        <div class="hero-site__location">
+          <div class="hero-site__left">
+            <img class="hero-site__img" src="src/img/manchkin.jpg" alt="Настольная игра Munchkin">
+          </div>
+
+          <div class="hero-site__right">
+            <h2>Munchkin (Манчкин)</h2>
+            <p><span class="hero-site__specs">Тип: </span>карточная игра-пародия на RPG</p>
+            <p><span class="hero-site__specs">Игроков: </span>3–6 человек</p>
+            <p><span class="hero-site__specs">Время партии: </span>30–120 минут</p>
+            <p><span class="hero-site__specs">Возраст: </span>от 10–12 лет</p>
+            <p><span class="hero-site__specs">Сложность: </span>низкая (правила объясняются за 5 минут)</p>
+          </div>
+        </div>
+
+        <div class="hero-site__structure">
+          <h2>Состав комплекта</h2>
+          <p><strong>В коробке находится всё необходимое для игры:</strong></p>
+          <ul class="hero-site__ul">
+            <li>168 игровых карт (разделённых на две колоды: «Двери» и «Сокровища»);</li>
+            <li>1 шестигранный кубик;</li>
+            <li>подробные правила игры.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Правила и механика</h2>
+          <p>Цель игры — первым прокачать своего персонажа до <strong>10-го уровня</strong>. Все начинают с 1-го уровня и повышают его, побеждая монстров, используя карты или продавая снаряжение.</p>
+
+          <ol class="hero-site__ul">
+            <li>
+              <strong>Выбить дверь.</strong> Вы берёте карту из колоды «Двери» и переворачиваете её. Там может оказаться монстр, проклятие, раса, класс или бонус.
+            </li>
+            <li>
+              <strong>Бой или Поиск неприятностей.</strong> Если выпал монстр, вам придётся сражаться. Если монстра нет, вы можете сыграть карту монстра из своей руки, чтобы «Поискать неприятности».
+            </li>
+            <li>
+              <strong>Бой.</strong> Сравните свой уровень (с учётом бонусов от экипировки) с уровнем монстра. При победе вы получаете уровни и сокровища. При поражении вы можете попросить помощи у другого игрока (предложив ему долю сокровищ) или попытаться «Смыться», бросив кубик. Если сбежать не удалось, вы получаете штрафы.
+            </li>
+            <li>
+              <strong>Получение сокровищ.</strong> После успешного боя или если вы не встретили монстра, вы берёте карты из колоды «Сокровища».
+            </li>
+          </ol>
+
+          <h3>Главная фишка: «Подстава»</h3>
+          <ul class="hero-site__ul">
+            <li>
+              <strong>Помощь:</strong> В бою помочь может только один игрок, и обычно за долю сокровищ.
+            </li>
+            <li>
+              <strong>Вред:</strong> Мешать могут все остальные, усиливая монстра или ослабляя вас. Чем ближе игрок к победе, тем сильнее искушение ему помешать.
+            </li>
+            <li>
+              <strong>Виды карт:</strong> «Двери» (монстры, расы, классы) и «Сокровища» (экипировка, зелья, бонусы).
+            </li>
+          </ul>
+
+          <h3>Конец игры</h3>
+          <p>
+            <span class="hero-site__text">Игра заканчивается сразу же, как только один из игроков достигает 10-го уровня. Побеждает самый хитрый и удачливый «манчкин».</span>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
